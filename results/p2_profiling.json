@@ -1,0 +1,17 @@
+{
+ "i_profiled_max_rel_err": 3.436242681503448e-11,
+ "ii_drop_component_loss": {
+  "min": 1.3368231827848298e-05,
+  "median": 0.1808153696048117,
+  "max": 0.9728958513164889
+ },
+ "ii_basis_change_rel_diff": 1.932976364298927e-16,
+ "iii_shared_nuisance": {
+  "I_b_common": 0.36606366740975443,
+  "I_b_private_copies": 0.15514895929674188,
+  "I_b_fixed": 0.23532590732899333,
+  "nu_common": 6,
+  "nu_private": 4,
+  "nu_fixed": 4
+ }
+}

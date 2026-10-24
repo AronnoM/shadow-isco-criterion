@@ -1,0 +1,179 @@
+{
+ "a_rank_deficient": {
+  "sectors": [
+   [
+    3,
+    2
+   ],
+   [
+    1,
+    1
+   ],
+   [
+    4,
+    2
+   ],
+   [
+    2,
+    1
+   ]
+  ],
+  "nu": 4,
+  "nu_formula_sum_r_minus_rankA": 4,
+  "max_rel_err_summary_vs_observable_between": 4.755491964139043e-14,
+  "max_rel_err_within_plus_between_vs_total": 4.730463059064627e-14
+ },
+ "b_correlated": [
+  {
+   "c": 0.0,
+   "n": 300,
+   "ratio_median": 1.0,
+   "ratio_min": 0.9999999999996169,
+   "ratio_max": 1.0000000000001772,
+   "frac_ratio_gt_1": 0.0
+  },
+  {
+   "c": 0.1,
+   "n": 300,
+   "ratio_median": 0.9952817397669427,
+   "ratio_min": 0.9096375498076186,
+   "ratio_max": 1.1548185838046576,
+   "frac_ratio_gt_1": 0.43
+  },
+  {
+   "c": 0.3,
+   "n": 300,
+   "ratio_median": 0.9775688019912365,
+   "ratio_min": 0.7500087680242514,
+   "ratio_max": 1.2355624934330018,
+   "frac_ratio_gt_1": 0.3566666666666667
+  },
+  {
+   "c": 0.5,
+   "n": 300,
+   "ratio_median": 0.9279507000309706,
+   "ratio_min": 0.5454421650211982,
+   "ratio_max": 1.397923286363249,
+   "frac_ratio_gt_1": 0.31
+  },
+  {
+   "c": 0.7,
+   "n": 270,
+   "ratio_median": 0.8623004341393087,
+   "ratio_min": 0.19108905868945256,
+   "ratio_max": 1.5786046340275075,
+   "frac_ratio_gt_1": 0.25555555555555554
+  }
+ ],
+ "b_size_if_ignored": [
+  {
+   "c": 0.0,
+   "size": 0.05001
+  },
+  {
+   "c": 0.5,
+   "size": 0.0373
+  },
+  {
+   "c": 1.0,
+   "size": 0.03648
+  },
+  {
+   "c": 1.5,
+   "size": 0.04531
+  },
+  {
+   "random_structures_min": 0.03945,
+   "random_structures_max": 0.08555
+  }
+ ],
+ "c_partition": [
+  {
+   "total_before": 3.4619801936444756,
+   "total_after": 3.4619801936444756,
+   "within_before": 1.4997560753790382,
+   "within_after": 0.9221601127530548,
+   "between_before": 1.9622241182654374,
+   "between_after": 2.539820080891421,
+   "nu_before": 3,
+   "nu_after": 5
+  },
+  {
+   "total_before": 7.2120039522596215,
+   "total_after": 7.2120039522596215,
+   "within_before": 0.9294604575595342,
+   "within_after": 0.6599225938208473,
+   "between_before": 6.282543494700088,
+   "between_after": 6.552081358438774,
+   "nu_before": 3,
+   "nu_after": 5
+  },
+  {
+   "total_before": 3.873900924559812,
+   "total_after": 3.873900924559812,
+   "within_before": 0.8652005445211596,
+   "within_after": 0.4948958739110785,
+   "between_before": 3.0087003800386523,
+   "between_after": 3.379005050648734,
+   "nu_before": 3,
+   "nu_after": 5
+  },
+  {
+   "total_before": 2.0196286981598908,
+   "total_after": 2.019628698159891,
+   "within_before": 1.7637677957898206,
+   "within_after": 1.4090371550960448,
+   "between_before": 0.25586090237007003,
+   "between_after": 0.6105915430638464,
+   "nu_before": 3,
+   "nu_after": 5
+  },
+  {
+   "total_before": 3.3631469457250773,
+   "total_after": 3.3631469457250773,
+   "within_before": 1.9187365481854826,
+   "within_after": 1.782796727839007,
+   "between_before": 1.4444103975395952,
+   "between_after": 1.5803502178860707,
+   "nu_before": 3,
+   "nu_after": 5
+  }
+ ],
+ "d_nuisance": [
+  {
+   "cos_phi": 0.1852157202794994,
+   "ratio_sigma": 1.017606747005426,
+   "one_over_sin": 1.0176067470054257,
+   "sigma_between_summary_marg": 1.8951074191623456,
+   "sigma_between_observable_marg": 1.8951074191623443
+  },
+  {
+   "cos_phi": 0.3770959914245016,
+   "ratio_sigma": 1.0797105130860312,
+   "one_over_sin": 1.0797105130860312,
+   "sigma_between_summary_marg": 1.431274955090765,
+   "sigma_between_observable_marg": 1.4312749550907657
+  },
+  {
+   "cos_phi": 0.7369955522453051,
+   "ratio_sigma": 1.4795140722988462,
+   "one_over_sin": 1.4795140722988454,
+   "sigma_between_summary_marg": 1.6209783325201028,
+   "sigma_between_observable_marg": 1.6209783325200997
+  },
+  {
+   "cos_phi": 0.29030713148595716,
+   "ratio_sigma": 1.0450046684443226,
+   "one_over_sin": 1.0450046684443226,
+   "sigma_between_summary_marg": 0.9110293777377224,
+   "sigma_between_observable_marg": 0.9110293777377216
+  },
+  {
+   "cos_phi": 0.05762189082190252,
+   "ratio_sigma": 1.0016642867258965,
+   "one_over_sin": 1.0016642867258965,
+   "sigma_between_summary_marg": 0.5808139839533116,
+   "sigma_between_observable_marg": 0.5808139839533113
+  }
+ ]
+}

@@ -1,0 +1,77 @@
+{
+ "p_over_sigma_linear": "-M/(4*M - 2*R)",
+ "R_DEC_m0.0001": 2.5001250124989207,
+ "R_DEC_m0.01": 2.5126243596434406,
+ "R_DEC_m0.05": 2.5655379754596357,
+ "R_DEC_m0.1": 2.6367470552679144,
+ "admissibility": {
+  "WEC/NEC/SEC": "R > 2(M+m)",
+  "DEC": "~2.5 M (linear)",
+  "stable Einstein cluster": "6 M"
+ },
+ "construction_max_err": 6.3534753887428685e-06,
+ "converse": {
+  "monotone_max_resid": 0.0,
+  "nonmonotone_min_resid": 0.002975247031693204,
+  "n_non": 303
+ },
+ "hypothesis_a": {
+  "shadow (3M) only n=2": {
+   "deficits": [
+    0.16666666666666666
+   ],
+   "mimicable": true
+  },
+  "shadow (3M) only n=3": {
+   "deficits": [
+    0.05555555555555555
+   ],
+   "mimicable": true
+  },
+  "shadow (3M) only n=4": {
+   "deficits": [
+    0.018518518518518517
+   ],
+   "mimicable": true
+  },
+  "ISCO frequency (6M) only n=2": {
+   "deficits": [
+    0.2916666666666667
+   ],
+   "mimicable": true
+  },
+  "ISCO frequency (6M) only n=3": {
+   "deficits": [
+    0.1111111111111111
+   ],
+   "mimicable": true
+  },
+  "ISCO frequency (6M) only n=4": {
+   "deficits": [
+    0.03356481481481482
+   ],
+   "mimicable": true
+  },
+  "shadow (3M) + ISCO frequency (6M) n=2": {
+   "deficits": [
+    0.16666666666666666,
+    0.2916666666666667
+   ],
+   "mimicable": false
+  },
+  "shadow (3M) + ISCO frequency (6M) n=3": {
+   "deficits": [
+    0.05555555555555555,
+    0.1111111111111111
+   ],
+   "mimicable": false
+  },
+  "shadow (3M) + ISCO frequency (6M) n=4": {
+   "deficits": [
+    0.018518518518518517,
+    0.03356481481481482
+   ],
+   "mimicable": false
+  }
+ }
+}

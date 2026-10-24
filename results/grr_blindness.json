@@ -1,0 +1,15 @@
+{
+ "schwarzschild_lambda": 0.19245008972987526,
+ "2": {
+  "grr_kernel": "1/18",
+  "gtt_kernel": "-1/18"
+ },
+ "3": {
+  "grr_kernel": "1/54",
+  "gtt_kernel": "1/27"
+ },
+ "4": {
+  "grr_kernel": "1/162",
+  "gtt_kernel": "1/27"
+ }
+}

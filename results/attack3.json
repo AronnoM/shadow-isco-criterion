@@ -1,0 +1,85 @@
+{
+ "a_nongaussian": [
+  {
+   "model": "gaussian",
+   "size_Tpar": 0.0499325,
+   "size_Tperp": 0.050125
+  },
+  {
+   "model": "split-normal, mode at truth",
+   "size_Tpar": 0.08991,
+   "size_Tperp": 0.053375
+  },
+  {
+   "model": "split-normal, median at truth",
+   "size_Tpar": 0.055615,
+   "size_Tperp": 0.050685
+  },
+  {
+   "model": "lognormal (sigma_ln = 0.21)",
+   "size_Tpar": 0.0565425,
+   "size_Tperp": 0.050555
+  }
+ ],
+ "b_mismatch": [
+  {
+   "design": "Sgr A* now (GRAVITY, Keck, flare 9M, EHT)",
+   "n_true": 3,
+   "kept": 0.9757658755494005
+  },
+  {
+   "design": "Sgr A* now (GRAVITY, Keck, flare 9M, EHT)",
+   "n_true": 4,
+   "kept": 0.9399694458041318
+  },
+  {
+   "design": "ladder (S2, orbit 9M, ISCO-QPO, shadow)",
+   "n_true": 3,
+   "kept": 0.9676967001229322
+  },
+  {
+   "design": "ladder (S2, orbit 9M, ISCO-QPO, shadow)",
+   "n_true": 4,
+   "kept": 0.9387750167075672
+  }
+ ],
+ "c_two_orders": [
+  {
+   "design": "Sgr A* now (GRAVITY, Keck, flare 9M, EHT)",
+   "rho": -0.9878086229373586,
+   "sigma_d2_alone": 1.1412096482905076,
+   "sigma_d2_joint": 7.3308066950778015,
+   "sigma_d3_joint": 22.814962116887916,
+   "nu": 3
+  },
+  {
+   "design": "ladder (S2, orbit 9M, ISCO-QPO, shadow)",
+   "rho": -0.9837157618554926,
+   "sigma_d2_alone": 0.14335527521929303,
+   "sigma_d2_joint": 0.7976093462348427,
+   "sigma_d3_joint": 2.238692927666579,
+   "nu": 3
+  }
+ ],
+ "d_double_counting": {
+  "w": 0.9995651687523037,
+  "mean_T2_wrong": 0.00021692840577806883,
+  "mean_T2_right": 0.9975421191668868,
+  "power_wrong": 0.0,
+  "power_right": 0.16986
+ },
+ "e_sgra_MD": {
+  "rho_stat_G": 0.9710454748282602,
+  "k_G": 1.9788026607538804,
+  "rho_stat_K": 0.9583186672087142,
+  "k_K": 1.5047002032520327,
+  "T2": 27.03808226366283,
+  "nu": 3,
+  "Tpar": 0.06459705809962116,
+  "Tperp": 26.973485205563208,
+  "chi2_GK": 26.97348520545329,
+  "chi2_GK_theta": 26.63590247815918,
+  "d2": 0.3209748361210216,
+  "sigma_d2": 1.2628873584352465
+ }
+}
