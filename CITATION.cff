@@ -2,7 +2,7 @@ cff-version: 1.2.0
 message: "If you use this code, please cite the paper and this repository."
 title: "shadow-isco-criterion: code and data for 'Can static matter shells imitate a deformed black hole? A shadow-ISCO criterion for multi-probe mass tests'"
 authors:
-  - family-names: Mridha
+  - family-names: Mirdha
     given-names: Aronno
 license: MIT
 version: 1.0.0
@@ -11,6 +11,6 @@ preferred-citation:
   type: article
   title: "Can static matter shells imitate a deformed black hole? A shadow-ISCO criterion for multi-probe mass tests"
   authors:
-    - family-names: Mridha
+    - family-names: Mirdha
       given-names: Aronno
   year: 2026
